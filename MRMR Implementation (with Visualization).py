@@ -1,5 +1,5 @@
 #%%
-ستيراد المكتبات اللازمة
+
 import pandas as pd
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import mutual_info_classif
@@ -87,3 +87,4 @@ plt.show()
 top_20_features.to_csv(os.path.join(output_folder, 'top_20_features.csv'), index=False)
 يتم حفظ الرسم البياني كصورة في المجلد ../4.FS_MRMR/.
 يتم حفظ بيانات الخصائص العشرين الأولى كملف CSV ليسهل الرجوع إليها لاحقاً.
+
